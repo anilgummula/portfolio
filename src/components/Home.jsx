@@ -39,6 +39,23 @@ function Home() {
                 <p className='text-sm md:text-md text-justify'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolor autem molestiae consectetur perferendis quasi possimus minima, tenetur ut est sunt architecto sapiente reprehenderit a quisquam ex recusandae illum error vitae! Quasi ipsam, deserunt suscipit assumenda aliquid harum commodi dolore ad illo?
                 </p>
+
+
+                {/* temp */}
+                <p className='text-sm md:text-md text-justify'>
+                    <div className='border-2 border-blue-500'>
+                        (1) code: int main() printf(helloworld)
+                        <br />
+                        (1) code: int main() printf(helloworld)
+                        <br />
+                        (1) code: int main() printf(helloworld)
+                        <br />
+                        (1) code: int main() printf(helloworld)
+                        <br />
+                        (1) code: int main() printf(helloworld)
+                    </div>
+                </p>
+                {/* temp end */}
                 <br />
                 {/* social media icons  */}
                 <div className='flex flex-col items-center md:flex-row space-y-6 md:space-y-0 justify-between'>
