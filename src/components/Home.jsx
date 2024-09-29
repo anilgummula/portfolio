@@ -44,7 +44,7 @@ function Home() {
                 {/* temp */}
                 <p className='text-sm md:text-md text-justify'>
                     <div className='border-2 border-blue-500'>
-                        (1) code: READY start
+                        (1) code: READY start (refresh every time when open)
                         <br />
                         {/* (1) code: int main() printf(helloworld)
                         <br />
