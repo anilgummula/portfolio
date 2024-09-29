@@ -36,9 +36,9 @@ function Home() {
                 </div>
                 <br />
                 
-                <p className='text-sm md:text-md text-justify'>
+                {/* <p className='text-sm md:text-md text-justify'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolor autem molestiae consectetur perferendis quasi possimus minima, tenetur ut est sunt architecto sapiente reprehenderit a quisquam ex recusandae illum error vitae! Quasi ipsam, deserunt suscipit assumenda aliquid harum commodi dolore ad illo?
-                </p>
+                </p> */}
 
 
                 {/* temp */}
