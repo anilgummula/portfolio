@@ -12,7 +12,9 @@ import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped} from "react-typed";
 
-import pic from '../../public/photo.avif';
+// import pic from '../../public/photo.avif';
+import pic from '../../public/mydp.jpg';
+
 
 
 

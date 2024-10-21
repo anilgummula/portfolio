@@ -14,7 +14,7 @@ function About() {
             B.Tech, Computer Science and Engineering
         </h1>
         <span>
-            [B.Tech/CSE], [RGUKT-Basar], [3yr], [2026 Graduation]
+            [B.Tech/CSE], [3yr] , [RGUKT-Basar], [2026 Graduation]
         </span>
         <br />
         <br />
@@ -22,7 +22,7 @@ function About() {
             Skills & Expertise
         </h1>
         <span>
-        Proficient in [ReactJS,NodeJS,Express,Tailwind] Experienced with [GIT/GITHUB] Strong grasp of [Design with Tailwind] Excellent problem-solving skills Effective communicator and collaborator
+        Proficient in [ReactJS,NodeJS,Express,Tailwind] Experienced with [GIT/GITHUB] Strong grasp of [Design with TailwindCSS] Excellent problem-solving skills Effective communicator and collaborator
         </span>
         <br />
         <br />
@@ -30,7 +30,12 @@ function About() {
         Professional Experience
         </h1>
         <span>
-        Currently working on my own project farmer market (url: <a className='text-blue-600' href="https://farmarket.netlify.app/">Farmer market</a>  ) 
+            1) Currently working on my own project farmer market using react (<a className='text-blue-600' href="https://farmarket.netlify.app/" target='_blank'>Farmer market</a>  ) 
+        <br />
+            2) I made this entire webpage(portfolio site) using  <span className='font-bold text-red-500'>React Js and TailwindCSS</span> portfolio website : (<a className='text-blue-600' href="https://glistening-smakager-37a1c1.netlify.app/" target='_blank'>My Portfolio</a>  )
+        <br />
+            3) I have made some static clone websites like myntra clone using html:  (<a className='text-blue-600' href="https://www.decodedevils.shop/" target='_blank'>Myntra Clone</a>  ) 
+        <br />
         </span>
         <br />
         <br />
@@ -46,7 +51,7 @@ function About() {
         Mission Statement
         </h1>
         <p>
-        My mission is to leverage my skills and creativity to deliver innovative [Your Field] solutions that exceed client expectations and contribute positively to the digital landscape. I am committed to continuous learning and growth, always seeking new challenges and opportunities to expand my horizons.   </p>
+        My mission is to leverage my skills and creativity to deliver innovative ideas and solutions that exceed client expectations and contribute positively to the digital landscape. I am committed to continuous learning and growth, always seeking new challenges and opportunities to expand my horizons.   </p>
         
     </div>
     </>
