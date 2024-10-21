@@ -11,10 +11,10 @@ function About() {
         </p>
         <br />
         <h1 className='text-green-600 text-xl font-semibold'>
-            Education & Training
+            B.Tech, Computer Science and Engineering
         </h1>
         <span>
-            [Degree/Certification], [Institution], [Year] [Degree/Certification], [Institution], [Year] [Relevant Course], [Platform/Institution], [Year]
+            [B.Tech/CSE], [RGUKT-Basar], [3yr], [2026 Graduation]
         </span>
         <br />
         <br />
@@ -22,7 +22,7 @@ function About() {
             Skills & Expertise
         </h1>
         <span>
-        Proficient in [Programming Languages] Experienced with [Software Tools/Technologies] Strong grasp of [Design Principles/Concepts] Excellent problem-solving skills Effective communicator and collaborator
+        Proficient in [ReactJS,NodeJS,Express,Tailwind] Experienced with [GIT/GITHUB] Strong grasp of [Design with Tailwind] Excellent problem-solving skills Effective communicator and collaborator
         </span>
         <br />
         <br />
@@ -30,7 +30,7 @@ function About() {
         Professional Experience
         </h1>
         <span>
-        [Job Title], [Company/Organization], [Dates] [Brief description of responsibilities and achievements] [Job Title], [Company/Organization], [Dates] [Brief description of responsibilities and achievements] [Freelance/Contract Work], [Client/Organization], [Dates] [Brief description of projects and contributions]
+        Currently working on my own project farmer market (url: <a className='text-blue-600' href="https://farmarket.netlify.app/">Farmer market</a>  ) 
         </span>
         <br />
         <br />
@@ -38,7 +38,7 @@ function About() {
         Achievements & Awards
         </h1>
         <span>
-        [Award/Recognition], [Organization/Institution], [Year] [Achievement], [Organization/Platform], [Year]
+        ...
         </span>
         <br />
         <br />

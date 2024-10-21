@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
@@ -16,6 +16,8 @@ import pic from '../../public/photo.avif';
 
 
 function Home() {
+    const [change,setChange]=useState(1);
+
   return (
     <>
     <div name="Home" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
@@ -36,25 +38,18 @@ function Home() {
                 </div>
                 <br />
                 
-                {/* <p className='text-sm md:text-md text-justify'>
+                <p className='text-sm md:text-md text-justify'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolor autem molestiae consectetur perferendis quasi possimus minima, tenetur ut est sunt architecto sapiente reprehenderit a quisquam ex recusandae illum error vitae! Quasi ipsam, deserunt suscipit assumenda aliquid harum commodi dolore ad illo?
-                </p> */}
+                </p>
 
 
                 {/* temp */}
-                <p className='text-sm md:text-md text-justify'>
+                {/* <p className='text-sm md:text-md text-justify'>
                     <div className='border-2 border-blue-500'>
                         (1) code: READY start (refresh every time when open)
-                        <br />
-                        {/* (1) code: int main() printf(helloworld)
-                        <br />
-                        (1) code: int main() printf(helloworld)
-                        <br />
-                        (1) code: int main() printf(helloworld)
-                        <br />
-                        (1) code: int main() printf(helloworld) */}
+
                     </div>
-                </p>
+                </p> */}
                 {/* temp end */}
                 <br />
                 {/* social media icons  */}
