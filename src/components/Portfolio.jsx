@@ -39,8 +39,8 @@ function Portfolio() {
             logo:JobSearch,
             name:"Job Search",
             description:"A JobSearch Platform, Where you can apply for a particular job post and get hired! based on skillset ",
-            url:"",
-            repo:""
+            url:"https://processing-404.netlify.app/",
+            repo:"https://processing-404.netlify.app/"
         },
         // {
         //     id:5,
