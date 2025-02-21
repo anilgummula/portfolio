@@ -1,12 +1,12 @@
 import React from 'react';
-import html from '../../public/html.png';
-import css from '../../public/css.jpg';
-import javascript from '../../public/javascript.png';
-import java from '../../public/java.png';
-import php from '../../public/php.png';
-import mysql from '../../public/mysql.png';
-import c from '../../public/c.png';
-import cpp from '../../public/cpp.png';
+import html from '/html.png';
+import css from '/css.jpg';
+import javascript from '/javascript.png';
+import java from '/java.png';
+import php from '/php.png';
+import mysql from '/mysql.png';
+import c from '/c.png';
+import cpp from '/cpp.png';
 
 // import spring from '../../public/spring.png';
 // import springBoot from '../../public/springBoot.jpg';

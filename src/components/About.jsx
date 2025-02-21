@@ -30,12 +30,12 @@ function About() {
         Professional Experience
         </h1>
         <span>
-            1) Currently working on my own project farmer market using react (<a className='text-blue-600' href="https://farmarket.netlify.app/" target='_blank'>Farmer market</a>  ) 
+        ↪ &nbsp; Project farmer market picked from <span className='text-orange-600 font-bold'>SIH</span> and made using react (<a className='text-blue-600' href="https://farmarket.netlify.app/" target='_blank'>Farmer market</a>  ) 
         <br />
-            2) I made this entire webpage(portfolio site) using  <span className='font-bold text-red-500'>React Js and TailwindCSS</span> portfolio website : (<a className='text-blue-600' href="https://glistening-smakager-37a1c1.netlify.app/" target='_blank'>My Portfolio</a>  )
+        ↪ &nbsp; I made this entire webpage(portfolio site) using  <span className='font-bold text-red-500'>React Js and TailwindCSS</span> portfolio website : (<a className='text-blue-600' href="https://glistening-smakager-37a1c1.netlify.app/" target='_blank'>My Portfolio</a>  )
         <br />
-            3) I have made some static clone websites like myntra clone using html:  (<a className='text-blue-600' href="https://www.decodedevils.shop/" target='_blank'>Myntra Clone</a>  ) 
-        <br />
+            {/* 3) I have made some static clone websites like myntra clone using html:  (<a className='text-blue-600' href="https://www.decodedevils.shop/" target='_blank'>Myntra Clone</a>  ) 
+        <br /> */}
         </span>
         <br />
         <br />
