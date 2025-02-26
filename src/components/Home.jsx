@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <>
-    <div name="Home" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
+    <div name="Home" className='home max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
         <div className='flex flex-col md:flex-row'>
             {/* left part */}
             <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
@@ -42,8 +42,13 @@ function Home() {
                 <br />
                 
                 <p className='text-sm md:text-md text-justify'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolor autem molestiae consectetur perferendis quasi possimus minima, tenetur ut est sunt architecto sapiente reprehenderit a quisquam ex recusandae illum error vitae! Quasi ipsam, deserunt suscipit assumenda aliquid harum commodi dolore ad illo?
+                Hello, I'm Anil, a passionate Web developer with a keen eye for MERN Stack . With a background in IT, I strive to create impactful and visually stunning Software solutions that leave a lasting impression.
+                <br />
+                <span className='font-semibold' >In more simple words <span className='text-purple-600'>I am Developer 😊</span></span>
                 </p>
+                {/* <p className='text-sm md:text-md text-justify'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolor autem molestiae consectetur perferendis quasi possimus minima, tenetur ut est sunt architecto sapiente reprehenderit a quisquam ex recusandae illum error vitae! Quasi ipsam, deserunt suscipit assumenda aliquid harum commodi dolore ad illo?
+                </p> */}
 
 
                 {/* temp */}
@@ -94,8 +99,8 @@ function Home() {
                 
             </div>
             {/* right part */}
-            <div className='md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1'>
-                <img src={pic} className='rounded-full md:h-[450px] md:w-[450px] ' alt="" />
+            <div className='md:w-1/2 md:ml-48 md:mt-20 lg:ml-64 mt-8 order-1'>
+                <img src={pic} className='rounded-full border-2 border-slate-400 md:h-[450px] md:w-[450px] ' alt="" />
             </div>
         </div>
     </div>
