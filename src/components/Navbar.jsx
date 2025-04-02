@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import pic from '../../public/photo.avif';
-import pic from '/devil.jpg';
+// import pic from '/devil.jpg';
+import pic from '/devil-art.png';
 
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";

@@ -28,9 +28,36 @@ function Contact() {
 
   return (
     <>
-        <div name="Contact" className='max-w-screen-2xl container mx-auto px-4 md:px-20'>
+        <div name="Contact" className='max-w-screen-2xl container mx-auto px-4 md:px-20 md:pt-20 pb-10'>
+            
             <h1 className='text-3xl font-bold mb-4'>Contact me</h1>
-            <span>Please fill out the form below to contact me</span>
+            <span className='flex justify-center'>Please check out my socials</span>
+            <div className="flex flex-col text-white justify-center mx-auto w-full pb-14">
+                    <h1 className="font-bold text-2xl text-center p-2">TEAM</h1>
+                    <div className="flex flex-wrap justify-center mt-6 gap-6">
+                        <a href="https://in.linkedin.com/in/anil-gummula" target="_blank" className="w-full sm:w-auto">
+                            <div className="flex items-center border-2 rounded-lg p-6 sm:p-10">
+                                <img src="/linkedin.png" alt="" className="border-2 w-12 h-12 sm:w-14 sm:h-14 rounded-full" />
+                                <p className="ml-6 text-lg sm:text-xl font-semibold text-blue-400 underline">anil-gummula</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/anilgummula" target="_blank" className="w-full sm:w-auto">
+                            <div className="flex items-center border-2 rounded-lg p-6 sm:p-10">
+                                <img src="/github.png" alt="" className="border-2 w-12 h-12 sm:w-14 sm:h-14 rounded-full" />
+                                <p className="ml-6 text-lg sm:text-xl font-semibold text-gray-400 underline">anilgummula</p>
+                            </div>
+                        </a>
+                        <a href="mailto:anilgummula2060@gmail.com" target="_blank" className="w-full sm:w-auto">
+                            <div className="flex items-center border-2 rounded-lg p-6 sm:p-10">
+                                <img src="/mail.png" alt="" className="border-2 w-12 h-12 sm:w-14 sm:h-14 rounded-full" />
+                                <p className="ml-6 text-lg sm:text-xl font-semibold text-yellow-300 underline">anilgummula2060@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            <span className='flex justify-center'>Please fill out the form below to contact me</span>
             <div className='flex flex-col justify-center items-center mt-5'>
                 <form 
                 onSubmit={handleSubmit(onSubmit)}

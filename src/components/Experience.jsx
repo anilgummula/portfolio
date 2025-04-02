@@ -7,36 +7,49 @@ import php from '/php.png';
 import mysql from '/mysql.png';
 import c from '/c.png';
 import cpp from '/cpp.png';
+import reactjs from '/reactjs.png'
+import express from '/express.png'
+import tailwind from '/tailwind.png'
+import node from '/node.png'
+import mongo from '/mongo.jpg'
+
 
 // import spring from '../../public/spring.png';
 // import springBoot from '../../public/springBoot.jpg';
 
 function Experience() {
     const cardItems =[
-        {
-            id:1,
-            logo:html,
-            name:"Html"
-        },
-        {
-            id:2,
-            logo:css,
-            name:"CSS"
-        },
+        // {
+        //     id:1,
+        //     logo:html,
+        //     name:"Html"
+        // },
+        // {
+        //     id:2,
+        //     logo:css,
+        //     name:"CSS"
+        // },
+        
+        // {
+        //     id:7,
+        //     logo:c,
+        //     name:"C"
+        // },
         {
             id:3,
-            logo:javascript,
-            name:"Javascript"
+            logo:cpp,
+            name:"c++"
         },
+        
         {
             id:4,
-            logo:php,
-            name:"PHP"
+            logo:java,
+            name:"Java"
         },
         {
             id:5,
-            logo:java,
-            name:"Java"
+            logo:php,
+            name:"PHP"
         },
         {
             id:6,
@@ -45,13 +58,34 @@ function Experience() {
         },
         {
             id:7,
-            logo:c,
-            name:"C"
+            logo:javascript,
+            name:"Javascript"
+        },
+        
+        {
+            id:9,
+            logo:reactjs,
+            name:"ReactJs"
         },
         {
-            id:8,
-            logo:cpp,
-            name:"c++"
+            id:10,
+            logo:tailwind,
+            name:"Tailwind css"
+        },
+        {
+            id:11,
+            logo:node,
+            name:"NodeJs"
+        },
+        {
+            id:12,
+            logo:express,
+            name:"ExpressJs"
+        },
+        {
+            id:13,
+            logo:mongo,
+            name:"MongoDB"
         },
     ]
   return (

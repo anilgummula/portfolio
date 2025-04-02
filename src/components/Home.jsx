@@ -14,6 +14,7 @@ import { ReactTyped} from "react-typed";
 
 // import pic from '../../public/photo.avif';
 import pic from '/devil.jpg';
+// import pic from '/devil-art.png';
 
 
 

@@ -30,9 +30,11 @@ function About() {
         Professional Experience
         </h1>
         <span>
-        ↪ &nbsp; Project farmer market picked from <span className='text-orange-600 font-bold'>SIH</span> and made using react (<a className='text-blue-600' href="https://farmarket.netlify.app/" target='_blank'>Farmer market</a>  ) 
+        ↪ &nbsp; Project farmer market picked from <span className='text-orange-600 font-bold'>SIH</span> and made using <span className="font-bold text-red-500">MERN</span> (<a className='text-blue-600 font-semibold' href="https://farmarket.netlify.app/" target='_blank'>Farmer market</a>  ) 
         <br />
-        ↪ &nbsp; I made this entire webpage(portfolio site) using  <span className='font-bold text-red-500'>React Js and TailwindCSS</span> portfolio website : (<a className='text-blue-600' href="https://glistening-smakager-37a1c1.netlify.app/" target='_blank'>My Portfolio</a>  )
+        ↪ &nbsp; Me with my teammates made a 3D-Game using  <span className='font-bold text-red-500'>Unity & Blender</span> Game Site : (<a className='text-teal-600 font-semibold' href="https://rgukt-game.netlify.app/" target='_blank'>Rgukt-Game</a>  )
+        <br />
+        ↪ &nbsp; I made this entire webpage(portfolio site) using  <span className='font-bold text-red-500'>React Js and TailwindCSS</span> portfolio website : (<a className='text-cyan-600 font-semibold' href="https://glistening-smakager-37a1c1.netlify.app/" target='_blank'>My Portfolio</a>  )
         <br />
             {/* 3) I have made some static clone websites like myntra clone using html:  (<a className='text-blue-600' href="https://www.decodedevils.shop/" target='_blank'>Myntra Clone</a>  ) 
         <br /> */}
@@ -42,9 +44,11 @@ function About() {
         <h1 className='text-green-600 text-xl font-semibold'>
         Achievements & Awards
         </h1>
-        <span>
-        ...
-        </span>
+        <a href="https://rgukt-game.netlify.app/" target="_blank">
+            <span>
+            <p className=" text-gray-500 font-bold">Go the first prize for our project in TechFest-2k25 RGUKT Antahpragnya</p>
+            </span>
+        </a>
         <br />
         <br />
         <h1 className='text-green-600 text-xl font-semibold'>
