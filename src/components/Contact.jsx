@@ -48,7 +48,7 @@ function Contact() {
                                 <p className="ml-6 text-lg sm:text-xl font-semibold text-gray-400 underline">anilgummula</p>
                             </div>
                         </a>
-                        <a href="mailto:anilgummula2060@gmail.com" target="_blank" className="w-full sm:w-auto">
+                        <a href="mailto:anilgummula2060@gmail.com" target="_blank" className="w-full sm:w-auto ">
                             <div className="flex items-center border-2 rounded-lg p-6 sm:p-10">
                                 <img src="/mail.png" alt="" className="border-2 w-12 h-12 sm:w-14 sm:h-14 rounded-full" />
                                 <p className="ml-6 text-lg sm:text-xl font-semibold text-yellow-300 underline">anilgummula2060@gmail.com</p>

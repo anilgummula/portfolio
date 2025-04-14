@@ -11,6 +11,8 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped} from "react-typed";
+import { Download } from "lucide-react";
+
 
 // import pic from '../../public/photo.avif';
 import pic from '/devil.jpg';
@@ -29,7 +31,7 @@ function Home() {
             {/* left part */}
             <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
                 <span className='text-xl'>Welcome In My Feed</span>
-                <div className='flex space-x-1 text-2xl md:text-4xl'>
+                <div className='flex space-x-1 text-xl md:text-2xl'>
                     <h1>Hello, I'm a</h1>
                     {/* <span className='text-red-600 font-bold'>Developer</span> */}
                     <ReactTyped
@@ -97,7 +99,18 @@ function Home() {
                     </div>  
                 </div>
                 </div>
-                
+                <div className='flex pt-10 justify-center md:justify-start sm:mx-auto'>
+
+                    <a
+                    href="/resume.pdf" // Replace with the actual path or external URL
+                    download
+                    className="inline-flex items-center gap-2 bg-teal-600 text-white px-5 py-2 rounded-2xl shadow-md hover:bg-teal-700 active:scale-95 transition-all duration-200"
+                    >
+                    <Download size={18} />
+                    Download Resume
+                    </a>
+                    
+                </div>
             </div>
             {/* right part */}
             <div className='md:w-1/2 md:ml-48 md:mt-20 lg:ml-64 mt-8 order-1'>
