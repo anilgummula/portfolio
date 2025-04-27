@@ -34,6 +34,32 @@ function Experience() {
         //     id:7,
         //     logo:c,
         //     name:"C"
+        
+        {
+            id:13,
+            logo:mongo,
+            name:"MongoDB"
+        },
+        {
+            id:12,
+            logo:express,
+            name:"ExpressJs"
+        },
+        {
+            id:9,
+            logo:reactjs,
+            name:"ReactJs"
+        },
+        {
+            id:11,
+            logo:node,
+            name:"NodeJs"
+        },
+        {
+            id:10,
+            logo:tailwind,
+            name:"Tailwind css"
+        },
         // },
         {
             id:3,
@@ -60,32 +86,6 @@ function Experience() {
             id:7,
             logo:javascript,
             name:"Javascript"
-        },
-        
-        {
-            id:9,
-            logo:reactjs,
-            name:"ReactJs"
-        },
-        {
-            id:10,
-            logo:tailwind,
-            name:"Tailwind css"
-        },
-        {
-            id:11,
-            logo:node,
-            name:"NodeJs"
-        },
-        {
-            id:12,
-            logo:express,
-            name:"ExpressJs"
-        },
-        {
-            id:13,
-            logo:mongo,
-            name:"MongoDB"
         },
     ]
   return (

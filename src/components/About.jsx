@@ -22,7 +22,13 @@ function About() {
             Skills & Expertise
         </h1>
         <span>
-        Proficient in [ReactJS,NodeJS,Express,Tailwind] Experienced with [GIT/GITHUB] Strong grasp of [Design with TailwindCSS] Excellent problem-solving skills Effective communicator and collaborator
+        ↪ &nbsp; Proficient in <span className='text-blue-500 font-semibold'>MERN STACK</span> [ReactJS,NodeJS,Express,TailwindCSS]
+        <br /> 
+        ↪ &nbsp; Experienced with [<span className='text-blue-500 font-semibold'>GIT/GITHUB</span>] 
+        <br />
+        ↪ &nbsp; Strong grasp of [<span className='text-blue-500 font-semibold'>Designing with TailwindCSS</span>] 
+        {/* <br />
+        ↪ &nbsp; Excellent problem-solving skills Effective communicator and collaborator */}
         </span>
         <br />
         <br />
