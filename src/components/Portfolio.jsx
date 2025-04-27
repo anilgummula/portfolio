@@ -44,7 +44,7 @@ function Portfolio() {
             id:2,
             logo:MusicMania,
             name:"Music Mania",
-            description:"This is a webpage where you can upload download and listen to the music ",
+            description:"A simple music player app ; where you can upload download and listen to the music ",
             url:"https://musicmania2050.netlify.app/",
             repo:"https://github.com/anilgummula/musicmania",
             complete:true
