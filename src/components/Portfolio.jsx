@@ -4,7 +4,7 @@ import FarmerMarket from '/projects/farmer.png';
 import MusicMania from '/projects/music.png';
 import ChatBot from '/projects/bot.png';
 import JobSearch from '/projects/worker.png';
-import chitchat from '/projects/i-love-you-1.png';
+import chitchat from '/projects/network.png';
 import Game from '/projects/game.jpeg';
 
 // import spring from '../../public/spring.png';
@@ -61,7 +61,7 @@ function Portfolio() {
             id:6,
             logo:chitchat,
             name:"TextMe",
-            description:"A place to text some one in network",
+            description:"A Chatting app where we can text some one in the network",
             url:"https://textme143.netlify.app/",
             repo:"https://github.com/anilgummula/ChitChat",
             complete:false
@@ -82,7 +82,7 @@ function Portfolio() {
     <>
     <div name="Portfolio" className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10'>
         <div>
-            <h1 className='text-3xl font-bold mb-5'>Portfolio</h1>
+            <h1 className='text-3xl font-bold mb-5'>Projects</h1>
             <span className='underline font-semibold'>Featured Projects</span>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-3 my-10 md:space-x-2 space-y-2  '>
