@@ -22,6 +22,15 @@ function Portfolio() {
             complete:true
         },
         {
+            id:3,
+            logo:Game,
+            name:"Rgukt-Game",
+            description:"Virtual Rgukt University Game Using Unity, Where we can experience the virual world of Our University",
+            url:"https://rgukt-game.netlify.app/",
+            repo:"https://github.com/anilgummula/rgukt_game",
+            complete:true
+        },
+        {
             id:2,
             logo:MusicMania,
             name:"Music Mania",
@@ -31,40 +40,31 @@ function Portfolio() {
             complete:true
         },
         {
-            id:3,
+            id:4,
             logo:ChatBot,
             name:"Chatbot BotGPT",
             description:"A chatbot app in which you can ask what ever queries want to ask to our chatbot",
             url:"https://botgpt2050.netlify.app/",
             repo:"https://github.com/anilgummula/botgpt",
-            complete:false
+            complete:true
         },
         {
-            id:4,
+            id:5,
             logo:JobSearch,
             name:"Job Search",
             description:"A JobSearch Platform, Where you can apply for a particular job post and get hired! based on skillset ",
             url:"https://processing-404.netlify.app/",
             repo:"https://processing-404.netlify.app/",
-            complete:true
+            complete:false
         },
         {
-            id:4,
+            id:6,
             logo:chitchat,
             name:"TextMe",
             description:"A place to text some one in network",
             url:"https://textme143.netlify.app/",
             repo:"https://github.com/anilgummula/ChitChat",
             complete:false
-        },
-        {
-            id:4,
-            logo:Game,
-            name:"Rgukt-Game",
-            description:"Virtual Rgukt University Game Using Unity, Where we can experience the virual world of Our University",
-            url:"https://rgukt-game.netlify.app/",
-            repo:"https://github.com/anilgummula/rgukt_game",
-            complete:true
         },
         // {
         //     id:5,

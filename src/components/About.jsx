@@ -46,7 +46,7 @@ function About() {
         </h1>
         <a href="https://rgukt-game.netlify.app/" target="_blank">
             <span>
-            <p className=" text-gray-500 font-bold">Go the first prize for our project in TechFest-2k25 RGUKT Antahpragnya</p>
+            <p className=" text-gray-500 font-bold">Got the first prize for our project [RGUKT-Game] in TechFest-2k25 RGUKT Antahpragnya</p>
             </span>
         </a>
         <br />
