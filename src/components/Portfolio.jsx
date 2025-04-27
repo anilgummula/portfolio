@@ -6,12 +6,22 @@ import ChatBot from '/projects/bot.png';
 import JobSearch from '/projects/worker.png';
 import chitchat from '/projects/network.png';
 import Game from '/projects/game.jpeg';
+import npm from '/projects/npm.png';
 
 // import spring from '../../public/spring.png';
 // import springBoot from '../../public/springBoot.jpg';
 
 function Portfolio() {
     const cardItems =[
+        {
+            id:0,
+            logo:npm,
+            name:"NPM package",
+            description:"A express package to start with basic express server setup for beginner's",
+            url:"https://www.npmjs.com/package/first-server-setup",
+            repo:"https://github.com/anilgummula/my_npm",
+            complete:true
+        },
         {
             id:1,
             logo:FarmerMarket,
