@@ -4,7 +4,7 @@ import FarmerMarket from '/projects/farmer.png';
 import MusicMania from '/projects/music.png';
 import ChatBot from '/projects/bot.png';
 import JobSearch from '/projects/worker.png';
-import chitchat from '/projects/network.png';
+import chitchat from '/projects/netvork.png';
 import Game from '/projects/game.jpeg';
 import Game1 from '/projects/game1.png';
 import npm from '/projects/npm.png';
