@@ -6,7 +6,10 @@ import ChatBot from '/projects/bot.png';
 import JobSearch from '/projects/worker.png';
 import chitchat from '/projects/network.png';
 import Game from '/projects/game.jpeg';
+import Game1 from '/projects/game1.png';
 import npm from '/projects/npm.png';
+// import imageGen from '/projects/valo2.webp';
+import imageGen from '/projects/logo2.jpg';
 
 // import spring from '../../public/spring.png';
 // import springBoot from '../../public/springBoot.jpg';
@@ -32,12 +35,39 @@ function Portfolio() {
             complete:true
         },
         {
+            id:5,
+            logo:chitchat,
+            name:"NetVork",
+            description:"A simple Chat app which was implemented in MERN using Socket.IO",
+            url:"https://netvork.netlify.app/",
+            repo:"https://github.com/anilgummula/ChitChat",
+            complete:true
+        },
+        {
+            id:6,
+            logo:imageGen,
+            name:"ImageGen",
+            description:"A image generation application with a prompt entered , implemented using an open source image generation api",
+            url:"https://imagegen2050.netlify.app/",
+            repo:"https://github.com/anilgummula/imageGen",
+            complete:true
+        },
+        {
             id:3,
             logo:Game,
             name:"Rgukt-Game",
             description:"Virtual Rgukt University Game Using Unity, Where we can experience the virual world of Our University",
             url:"https://rgukt-game.netlify.app/",
             repo:"https://github.com/anilgummula/rgukt_game",
+            complete:true
+        },
+        {
+            id:8,
+            logo:Game1,
+            name:"Fun Game",
+            description:"A fun game made using html, CSS & JS",
+            url:"https://fungame001.netlify.app/",
+            repo:"https://github.com/anilgummula/game1",
             complete:true
         },
         {
@@ -59,21 +89,12 @@ function Portfolio() {
             complete:true
         },
         {
-            id:5,
+            id:7,
             logo:JobSearch,
             name:"Job Search",
             description:"A JobSearch Platform, Where you can apply for a particular job post and get hired! based on skillset ",
             url:"https://processing-404.netlify.app/",
             repo:"https://processing-404.netlify.app/",
-            complete:false
-        },
-        {
-            id:6,
-            logo:chitchat,
-            name:"TextMe",
-            description:"A Chatting app where we can text some one in the network",
-            url:"https://textme143.netlify.app/",
-            repo:"https://github.com/anilgummula/ChitChat",
             complete:false
         },
         // {
@@ -99,7 +120,7 @@ function Portfolio() {
             {
                 cardItems.map(({id,logo,name,description,url,repo,complete})=>(
                     <div key={id} className='md:max-w-[400px] md:max-h-[400px] border-[2px] rounded-lg shadow-lg p-4 cursor-pointer hover:scale-110 duration-300 bg-white mx-4'>
-                        <img src={logo} alt="" className='w-[120px] h-[120px] p-1 rounded-full border-[2px] flex justify-center mx-auto ' />
+                        <img src={logo} alt="" className='w-[120px] h-[120px]  p-1 rounded-full border-[2px] flex justify-center mx-auto ' />
                         <div className='py-2'>
                             <div className='px-2 text-xl font-bold mb-2 flex justify-center mx-auto'>{name}</div>
                             <p className='px-2 text-gray-700 flex text-center'>{description}</p>

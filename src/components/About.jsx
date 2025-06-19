@@ -38,7 +38,7 @@ function About() {
         <span>
         ↪ &nbsp; Project farmer market picked from <span className='text-orange-600 font-bold'>SIH</span> and made using <span className="font-bold text-red-500">MERN</span> (<a className='text-blue-600 font-semibold' href="https://farmarket.netlify.app/" target='_blank'>Farmer market</a>  ) 
         <br />
-        ↪ &nbsp; Me with my teammates made a 3D-Game using  <span className='font-bold text-red-500'>Unity & Blender</span> Game Site : (<a className='text-teal-600 font-semibold' href="https://rgukt-game.netlify.app/" target='_blank'>Rgukt-Game</a>  )
+        ↪ &nbsp; Me with my teammate made a 3D-Game named <span className='text-purple-700 font-semibold'>"RGUKT-Virtual Game"</span> using  <span className='font-bold text-red-500'>Unity & Blender</span> Game Site : (<a className='text-teal-600 font-semibold' href="https://rgukt-game.netlify.app/" target='_blank'>Rgukt-Game</a>  )
         <br />
         ↪ &nbsp; I made this entire webpage(portfolio site) using  <span className='font-bold text-red-500'>React Js and TailwindCSS</span> portfolio website : (<a className='text-cyan-600 font-semibold' href="https://glistening-smakager-37a1c1.netlify.app/" target='_blank'>My Portfolio</a>  )
         <br />
