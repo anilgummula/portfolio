@@ -10,6 +10,7 @@ import Game1 from '/projects/game1.png';
 import npm from '/projects/npm.png';
 // import imageGen from '/projects/valo2.webp';
 import imageGen from '/projects/logo2.jpg';
+import Ideas from '/projects/ideas.png';
 
 // import spring from '../../public/spring.png';
 // import springBoot from '../../public/springBoot.jpg';
@@ -35,21 +36,12 @@ function Portfolio() {
             complete:true
         },
         {
-            id:5,
+            id:2,
             logo:chitchat,
             name:"NetVork",
             description:"A simple Chat app which was implemented in MERN using Socket.IO",
             url:"https://netvork.netlify.app/",
             repo:"https://github.com/anilgummula/ChitChat",
-            complete:true
-        },
-        {
-            id:6,
-            logo:imageGen,
-            name:"ImageGen",
-            description:"A image generation application with a prompt entered , implemented using an open source image generation api",
-            url:"https://imagegen2050.netlify.app/",
-            repo:"https://github.com/anilgummula/imageGen",
             complete:true
         },
         {
@@ -62,7 +54,7 @@ function Portfolio() {
             complete:true
         },
         {
-            id:8,
+            id:4,
             logo:Game1,
             name:"Fun Game",
             description:"A fun game made using html, CSS & JS",
@@ -71,7 +63,7 @@ function Portfolio() {
             complete:true
         },
         {
-            id:2,
+            id:5,
             logo:MusicMania,
             name:"Music Mania",
             description:"A simple music player app ; where you can upload download and listen to the music ",
@@ -80,7 +72,7 @@ function Portfolio() {
             complete:true
         },
         {
-            id:4,
+            id:6,
             logo:ChatBot,
             name:"Chatbot BotGPT",
             description:"A chatbot app in which you can ask what ever queries want to ask to our chatbot",
@@ -90,11 +82,29 @@ function Portfolio() {
         },
         {
             id:7,
+            logo:imageGen,
+            name:"ImageGen",
+            description:"A image generation application with a prompt entered , implemented using an open source image generation api",
+            url:"https://imagegen2050.netlify.app/",
+            repo:"https://github.com/anilgummula/imageGen",
+            complete:true
+        },
+        {
+            id:8,
             logo:JobSearch,
             name:"Job Search",
             description:"A JobSearch Platform, Where you can apply for a particular job post and get hired! based on skillset ",
             url:"https://processing-404.netlify.app/",
             repo:"https://processing-404.netlify.app/",
+            complete:false
+        },
+        {
+            id:9,
+            logo:Ideas,
+            name:"Ideas Share",
+            description:"A Platform to share the project ideas",
+            url:"https://ideas2050.netlify.app/",
+            repo:"https://github.com/anilgummula/ideas_fullstack",
             complete:false
         },
         // {
