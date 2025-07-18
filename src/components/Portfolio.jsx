@@ -27,12 +27,12 @@ function Portfolio() {
             complete:true
         },
         {
-            id:1,
-            logo:FarmerMarket,
-            name:"Farmer Market",
-            description:"This is a website where general people can buy health foods from farmers directly",
-            url:"https://farmarket.netlify.app/",
-            repo:"https://github.com/anilgummula/farmert-market-full",
+            id:9,
+            logo:Ideas,
+            name:"Ideas Share",
+            description:"A Platform to share the project ideas",
+            url:"https://ideas2050.netlify.app/",
+            repo:"https://github.com/anilgummula/ideas_fullstack",
             complete:true
         },
         {
@@ -45,12 +45,12 @@ function Portfolio() {
             complete:true
         },
         {
-            id:3,
-            logo:Game,
-            name:"Rgukt-Game",
-            description:"Virtual Rgukt University Game Using Unity, Where we can experience the virual world of Our University",
-            url:"https://rgukt-game.netlify.app/",
-            repo:"https://github.com/anilgummula/rgukt_game",
+            id:1,
+            logo:FarmerMarket,
+            name:"Farmer Market",
+            description:"This is a website where general people can buy health foods from farmers directly",
+            url:"https://farmarket.netlify.app/",
+            repo:"https://github.com/anilgummula/farmert-market-full",
             complete:true
         },
         {
@@ -60,6 +60,15 @@ function Portfolio() {
             description:"A fun game made using html, CSS & JS",
             url:"https://fungame001.netlify.app/",
             repo:"https://github.com/anilgummula/game1",
+            complete:true
+        },
+        {
+            id:3,
+            logo:Game,
+            name:"Rgukt-Game",
+            description:"Virtual Rgukt University Game Using Unity, Where we can experience the virual world of Our University",
+            url:"https://rgukt-game.netlify.app/",
+            repo:"https://github.com/anilgummula/rgukt_game",
             complete:true
         },
         {
@@ -96,15 +105,6 @@ function Portfolio() {
             description:"A JobSearch Platform, Where you can apply for a particular job post and get hired! based on skillset ",
             url:"https://processing-404.netlify.app/",
             repo:"https://processing-404.netlify.app/",
-            complete:false
-        },
-        {
-            id:9,
-            logo:Ideas,
-            name:"Ideas Share",
-            description:"A Platform to share the project ideas",
-            url:"https://ideas2050.netlify.app/",
-            repo:"https://github.com/anilgummula/ideas_fullstack",
             complete:false
         },
         // {
