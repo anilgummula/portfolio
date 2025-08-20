@@ -50,7 +50,7 @@ function Portfolio() {
             name:"Farmer Market",
             description:"This is a website where general people can buy health foods from farmers directly",
             url:"https://farmarket.netlify.app/",
-            repo:"https://github.com/anilgummula/farmert-market-full",
+            repo:"https://github.com/anilgummula/farmer-market-full",
             complete:true
         },
         {
